@@ -36,5 +36,11 @@ def turn(board)
 end
 
 def play(board)
+  turn(board) = 1
+  while turn(board) = 1
+    turn(board)
+    turn(board) += 1
+
+  end
 end
 # Define your play method below
